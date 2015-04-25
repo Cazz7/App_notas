@@ -34,20 +34,20 @@ public class Notas extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 if (ebQuices.getText().toString().matches("")) {
-                    Toast.makeText(Notas.this, "Ingrese la nota correspondiente a los quices", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Notas.this, "Ingrese la nota correspondiente a los quices", Toast.LENGTH_SHORT).show();
                      return;
                 }
 
                 else if (ebExpos.getText().toString().matches("")) {
-                    Toast.makeText(Notas.this, "Ingrese la nota correspondiente a las exposiciones", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Notas.this, "Ingrese la nota correspondiente a las exposiciones", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 else if (ebPracticas.getText().toString().matches("")) {
-                    Toast.makeText(Notas.this, "Ingrese la nota correspondiente a las prácticas de laboratorio", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Notas.this, "Ingrese la nota correspondiente a las prácticas de laboratorio", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 else if (ebProyecto.getText().toString().matches("")) {
-                    Toast.makeText(Notas.this, "Ingrese la nota correspondiente al proyecto", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Notas.this, "Ingrese la nota correspondiente al proyecto", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 else{
